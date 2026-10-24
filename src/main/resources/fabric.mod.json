@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "unkownjar",
+	"version": "${version}",
+	"name": "unknown.jar",
+	"description": "Etwas folgt dir. Es lernt. Mit jedem Tag wird es schlimmer.",
+	"authors": [
+		"unknown"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/unkownjar/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"unkown.jar.UnkownJar"
+		],
+		"client": [
+			"unkown.jar.client.UnkownJarClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

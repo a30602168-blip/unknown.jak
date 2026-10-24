@@ -1,0 +1,9 @@
+{
+  "entity.unkownjar.unknown": "unknown",
+  "message.unkownjar.title": "§4§lHsiEpLdP",
+  "message.unkownjar.subtitle": "§7§oIt found you.",
+  "message.unkownjar.chat1": "§8<§4HsiEpLdP§8> §7i see you",
+  "message.unkownjar.chat2": "§8<§4HsiEpLdP§8> §7§kxxxxxxx§r§7 you should not have looked",
+  "message.unkownjar.chat3": "§8<§4§kHsiEpLdP§8> §4§k..........",
+  "message.unkownjar.disconnect": "§4§lConnection lost\n\n§7unknown.jar found you.\n§8§oIt is already waiting for your return."
+}

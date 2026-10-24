@@ -1,0 +1,180 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Rules",
+                  "author": "Mika",
+                  "generation": 3,
+                  "pages": [
+                    "Mika's diary\n\nSaturday.\n\nWe finally started today. There are five of us: Ben, Jonas, Lena, Tim and me.",
+                    "Our rules:\n- no cheats\n- no commands\n- no wiki\n- everyone plays for the first time\n\nWe wanted to figure everything out ourselves.",
+                    "Ben said: 'Whoever cheats buys pizza.' We laughed.\n\nTim built the first cabin. I think it is the most beautiful cabin in the world."
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "The Night",
+                  "author": "Mika",
+                  "generation": 3,
+                  "pages": [
+                    "The first night.\n\nBen said he saw someone. Far away, between the trees. Completely black.",
+                    "Jonas said it was probably a creeper shadow or a bug. We ignored it.\n\nWe did not notice that it had been staring at us the whole time.",
+                    "Late at night Ben went outside again. 'Just a quick look.'\n\nWe thought he was getting wood.\n\nWe fell asleep."
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "The Morning",
+                  "author": "Lena",
+                  "generation": 3,
+                  "pages": [
+                    "Sunday morning.\n\nBen's bed was empty. His things were still there.\n\nWe thought he was sleeping somewhere else or had logged off early.",
+                    "There was school. We had to go.\n\nTim said: 'He will show up.'\n\nNobody heard anything in the night. Nobody wanted to have heard anything.",
+                    "We left the cabin the way it was.\n\nThere were tracks in front of the door. Tracks of ONE person, leading in and never out again."
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "School",
+                  "author": "Jonas",
+                  "generation": 3,
+                  "pages": [
+                    "Monday at school.\n\nBen was not at his seat. We thought: sick. Overslept. Whatever.",
+                    "None of us texted him. None of us called.\n\nDuring break we talked about the game and laughed.",
+                    "The strange thing: everyone else asked 'Who is Ben?'\n\nAs if he had never existed.\n\nThat should have warned us."
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "The Poster",
+                  "author": "Tim",
+                  "generation": 3,
+                  "pages": [
+                    "After school we walked home together.\n\nA sheet of paper hung on the lamp post in front of Ben's street.",
+                    "MISSING\n\nBen\n\nLast seen: Saturday evening\nDescription: wanted to step outside for a moment\n\nPlease get in touch.",
+                    "In the photo he wore the shirt from our first night.\n\nThe photo was taken in our cabin.\n\nNone of us took it."
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "unknown",
+                  "author": "???",
+                  "generation": 3,
+                  "pages": [
+                    "It learns.\n\nDay 1: unknown\nDay 2: unnowk\nDay 3: ukwonoa\nDay 4: HsiEpLdP",
+                    "If you are reading this, it has already seen you.\n\nDo not stare into the dark for too long.\n\nIt stares back.",
+                    "We should have looked for him. We should not have slept.\n\nIf you hear footsteps behind you: run. And do not look back."
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

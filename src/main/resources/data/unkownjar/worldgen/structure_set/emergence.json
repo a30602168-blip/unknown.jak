@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "unkownjar:emergence",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 72,
+    "separation": 24,
+    "salt": 6660666
+  }
+}
